@@ -340,7 +340,7 @@ window#waybar {
 	font-weight: bolder;
 	padding-left: 20px;
 }
-
+/* 
 #battery.charging,
 #battery.plugged {
 	background-color: #94e2d5;
@@ -369,6 +369,67 @@ window#waybar {
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+} */
+
+/* Battery Module Styling */
+#battery {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    padding: 5px 10px;
+    /* border-radius: 5px; */
+    /* font-family: "Fira Code", monospace; */
+    color: #e0f7fa;
+}
+
+#battery.charging {
+    background: linear-gradient(135deg, #0f2027, #1a3e5c, #246b75);
+    color: #00ff7f;
+}
+
+#battery.discharging {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff, #4facfe);
+    /* color: #00cfff; */
+}
+
+#battery.critical {
+    color: #ff4757;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+#battery.full {
+    color: #00c8b0;
+}
+
+#battery > .icon {
+    margin-right: 5px;
+}
+
+#battery > .percentage {
+    font-weight: bold;
+}
+
+/* Water Animation for Background */
+@keyframes water-wave {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#battery {
+    background-size: 200% 200%;
+    animation: water-wave 4s ease infinite;
+}
+
+/* Low Battery Blink Animation */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
 
 #cpu {
