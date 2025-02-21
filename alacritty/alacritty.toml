@@ -5,22 +5,22 @@ import = ["/home/teoman/.config/alacritty/themes/themes/cyber_punk_neon.toml"]
 draw_bold_text_with_bright_colors = true
 
 [font]
-size = 14.0
+size = 12.0
 
 [font.bold]
-family = "MesloLGS NF"
+family = "FiraCode Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "MesloLGS NF"
+family = "FiraCode Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "MesloLGS NF"
+family = "FiraCode Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "MesloLGS NF"
+family = "FiraCode Nerd Font Mono"
 style = "Regular"
 
 [window]
@@ -32,5 +32,5 @@ general = "Alacritty"
 instance = "Alacritty"
 
 [window.padding]
-x = 6
-y = 6
+x = 3
+y = 3
