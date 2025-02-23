@@ -16,6 +16,3 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/TeomanM/starter
-[submodule "emacs"]
-	path = emacs
-	url = https://github.com/doomemacs/doomemacs
