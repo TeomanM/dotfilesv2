@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Electrician Simulator
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1080020
+Icon=steam_icon_1080020
+Terminal=false
+Type=Application
+Categories=Game;

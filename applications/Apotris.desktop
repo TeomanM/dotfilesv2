@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Apotris
+StartupWMClass=apotris
+GenericName=Apotris Tetris
+Exec=/home/teoman/Downloads/Apotris/Apotris
+Icon=tetris
+Type=Application
+Categories=Games;

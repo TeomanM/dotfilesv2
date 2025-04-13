@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Path of Building Community (PoE2)
+Exec=env WINEPREFIX="/home/teoman/.wine" wine C:\\\\users\\\\teoman\\\\AppData\\\\Roaming\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\Path\\ of\\ Building\\ Community\\ \\(PoE2\\).lnk
+Type=Application
+StartupNotify=true
+Path=/home/teoman/.wine/dosdevices/c:/users/teoman/AppData/Roaming/Path of Building Community (PoE2)
+Icon=61B7_Path of Building-PoE2.0
+StartupWMClass=path of building-poe2.exe

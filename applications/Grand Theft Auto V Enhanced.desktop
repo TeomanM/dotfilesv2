@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Grand Theft Auto V Enhanced
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/3240220
+Icon=steam_icon_3240220
+Terminal=false
+Type=Application
+Categories=Game;

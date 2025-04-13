@@ -5,6 +5,7 @@ application/vnd.visio=drawio.desktop;
 application/winhlp=wine-extension-hlp.desktop;
 application/x-wine-extension-msp=wine-extension-msp.desktop;
 text/vbscript=wine-extension-vbs.desktop;
+x-scheme-handler/com.cloudflare.warp=warp-cli.desktop;
 x-scheme-handler/spotify=spotify.desktop;
 x-scheme-handler/termius=termius.desktop;
 x-scheme-handler/tg=org.telegram.desktop.desktop;
