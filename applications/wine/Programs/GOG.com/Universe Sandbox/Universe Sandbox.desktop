@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Universe Sandbox
+Exec=env WINEPREFIX="/home/teoman/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\GOG.com\\\\Universe\\ Sandbox\\\\Universe\\ Sandbox.lnk
+Type=Application
+StartupNotify=true
+Path=/home/teoman/.wine/dosdevices/d:/Games/Universe Sandbox
+Icon=0499_goggame-1322614388.0
+StartupWMClass=universe sandbox x64.exe

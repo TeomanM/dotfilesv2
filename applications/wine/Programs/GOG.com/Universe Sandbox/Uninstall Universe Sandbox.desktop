@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall Universe Sandbox
+Exec=env WINEPREFIX="/home/teoman/.wine" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\GOG.com\\\\Universe\\ Sandbox\\\\Uninstall\\ Universe\\ Sandbox.lnk
+Type=Application
+StartupNotify=true
+Path=/home/teoman/.wine/dosdevices/d:/Games/Universe Sandbox
+Icon=38B4_unins000.0
+StartupWMClass=unins000.exe
