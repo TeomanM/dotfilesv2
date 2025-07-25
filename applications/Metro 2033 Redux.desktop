@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Metro 2033 Redux
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/286690
-Icon=steam_icon_286690
-Terminal=false
-Type=Application
-Categories=Game;
